@@ -45,6 +45,10 @@ export const Skills = () => {
         <div className="row">
           <div className="col-12">
             <div className="skill-bx wow zoomIn">
+            <p>
+  I’m a passionate Full Stack Developer skilled in building modern, scalable web applications. From dynamic news portals like <strong>ETV BAL BHARAT</strong> and <strong>Eenadu Hindi</strong> to real-time apps like the <strong>Weather App</strong> and <strong>Crypto Dashboard</strong>, I specialize in crafting responsive UIs and integrating APIs using <strong>React, Next.js, JavaScript</strong>, and more. I focus on clean code, reusable components, and user-first design.
+</p>
+
               <h2>Skills</h2>
               <p>I specialize in frontend and backend development using modern frameworks and tools.</p>
 

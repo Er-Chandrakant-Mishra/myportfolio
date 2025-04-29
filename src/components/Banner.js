@@ -58,7 +58,16 @@ export const Banner = () => {
                 <span className="tagline">Welcome to my Portfolio</span>
                 <h1>{`Hi! I'm Chandrakant Mishra`} <span className="txt-rotate" dataPeriod="1000" data-rotate='[ "Full Stack Developer", "React JS Developer", "Web Developer" ]'><span className="wrap">{text}</span></span></h1>
                   <p>I'm a passionate Full Stack Developer with over 2 years of experience in building modern web and mobile applications. My expertise lies in frontend technologies like React.js, React Native, Next.js, and backend development using Node.js, Express.js, and MongoDB. I also work with Redux Toolkit, API integration, and have experience in authentication, state management, and performance optimization.</p>
-                  <button onClick={() => window.open('https://www.linkedin.com/in/er-chandrakant-mishra', '_blank')}>Let’s Connect <ArrowRightCircle size={25} /></button>
+                  <div className="button-group">  
+
+  <button
+    onClick={() =>
+      window.open('https://drive.google.com/file/d/1JjpJx9zQAnwm_1Fpnh4hNcJrK-cIfq5R/view?usp=sharing', '_blank')
+    }
+  >
+    View Resume <ArrowRightCircle size={25} />
+  </button>
+</div>
               </div>}
             </TrackVisibility>
           </Col>

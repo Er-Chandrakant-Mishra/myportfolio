@@ -13,16 +13,16 @@ export const Projects = () => {
     description: "News platform built for multiple regions using React/TypeScript",
     techstack: "React JS, HTML/CSS, JavaScript/TypeScript",
     previewLink: "https://www.etvbalbharat.com/events",
-    githubLink: "https://github.com",
+    githubLink: "https://github.com/Er-Chandrakant-Mishra/",
    
   },
   {
     title: "Enadu Hindi Language",
     description: "Hindi language news portal for regional readers with dynamic content",
     techstack: "HTML/CSS, JavaScript, ReactJS, Hooks",
-    previewLink: "https://google.com/eenadu.net/hindi",
-    githubLink: "https://github.com/Er-Chandrakant-Mishra/eenadu_hindi_language",
- 
+    techstack: "HTML/CSS, JavaScript, ReactJS, Hooks",
+    previewLink: "https://www.etvbharat.com/hi/delhi/!bharat",
+    githubLink: "https://github.com/Er-Chandrakant-Mishra/",
   },
   {
     title: "Weather App",
@@ -36,7 +36,7 @@ export const Projects = () => {
     title: "EV Analytics Dashboard",
     description: "EV population data visualization with filters and charts",
     techstack: "React JS, HTML/CSS, JavaScript",
-    previewLink: "https://er-chandrakant-mishra.github.io/dashboard",
+    previewLink: "https://er-chandrakant-mishra.github.io/evdashboard/",
     githubLink: "https://github.com/Er-Chandrakant-Mishra/evdashboard",
    
   },
@@ -52,7 +52,7 @@ export const Projects = () => {
     title: "Crypto Dashboard",
     description: "Bitcoin trends using CoinDesk API and react-chartjs-2",
     techstack: "ReactJS, TailwindCSS, JavaScript, HTML/CSS",
-    previewLink: "https://github.com/Er-Chandrakant-Mishra/crypto-dashboard",
+    previewLink: "https://er-chandrakant-mishra.github.io/crypto-dashboard/",
     githubLink: "https://github.com/Er-Chandrakant-Mishra/crypto-dashboard",
     
   },

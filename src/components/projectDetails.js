@@ -8,56 +8,65 @@ import colorSharp2 from "../assets/img/color-sharp2.png";
 import "animate.css";
 import TrackVisibility from "react-on-screen";
 
-const projectDetails = [
-  {
-    title: "ETV BAL BHARAT",
-    description: "News platform built for multiple regions using React/TypeScript",
-    techstack: "React JS, HTML/CSS, JavaScript/TypeScript",
-    previewLink: "https://www.etvbalbharat.com/events",
-    githubLink: "https://github.com/Er-Chandrakant-Mishra/Etv_Bal_Bharat-_React_Project",
+// const projectDetails = [
+//   {
+//     title: "ETV BAL BHARAT",
+//     description: "News platform built for multiple regions using React/TypeScript",
+//     techstack: "React JS, HTML/CSS, JavaScript/TypeScript",
+//     previewLink: "https://www.etvbalbharat.com/events",
+//     githubLink: "https://github.com/Er-Chandrakant-Mishra/Etv_Bal_Bharat-_React_Project",
    
-  },
-  {
-    title: "Eenadu Hindi Language",
-    description: "Hindi language news portal for regional readers with dynamic content",
-    techstack: "HTML/CSS, JavaScript, ReactJS, Hooks",
-    previewLink: "https://www.etvbharat.com/hi/delhi/!bharat",
-    githubLink: "https://github.com/Er-Chandrakant-Mishra/",
+//   },
+//   {
+//     title: "Eenadu Hindi Language",
+//     description: "Hindi language news portal for regional readers with dynamic content",
+//     techstack: "HTML/CSS, JavaScript, ReactJS, Hooks",
+//     previewLink: "https://www.etvbharat.com/hi/delhi/!bharat",
+//     githubLink: "https://github.com/Er-Chandrakant-Mishra/",
  
-  },
-  {
-    title: "Weather App",
-    description: "Real-time weather data based on user location",
-    techstack: "ReactJS, API, HTML/CSS, JavaScript",
-    previewLink: "https://er-chandrakant-mishra.github.io/Weather-app/",
-    githubLink: "https://github.com/Er-Chandrakant-Mishra/Weather-app",
+//   },
+//   {
+//     title: "Weather App",
+//     description: "Real-time weather data based on user location",
+//     techstack: "ReactJS, API, HTML/CSS, JavaScript",
+//     previewLink: "https://er-chandrakant-mishra.github.io/Weather-app/",
+//     githubLink: "https://github.com/Er-Chandrakant-Mishra/Weather-app",
   
-  },
-  {
-    title: "EV Analytics Dashboard",
-    description: "EV population data visualization with filters and charts",
-    techstack: "React JS, HTML/CSS, JavaScript",
-    previewLink: "https://er-chandrakant-mishra.github.io/evdashboard/",
-    githubLink: "https://github.com/Er-Chandrakant-Mishra/evdashboard",
+//   },
+//   {
+//     title: "EV Analytics Dashboard",
+//     description: "EV population data visualization with filters and charts",
+//     techstack: "React JS, HTML/CSS, JavaScript",
+//     previewLink: "https://er-chandrakant-mishra.github.io/evdashboard/",
+//     githubLink: "https://github.com/Er-Chandrakant-Mishra/evdashboard",
    
-  },
-  {
-    title: "QR Generator Website",
-    description: "Create dynamic QR codes using React and Next.js",
-    techstack: "ReactJS, NextJS, JavaScript, HTML/CSS",
-    previewLink: "https://er-chandrakant-mishra.github.io/reactqrapp/",
-    githubLink: "https://github.com/Er-Chandrakant-Mishra/reactqrapp",
+//   },
+//   {
+//     title: "QR Generator Website",
+//     description: "Create dynamic QR codes using React and Next.js",
+//     techstack: "ReactJS, NextJS, JavaScript, HTML/CSS",
+//     previewLink: "https://er-chandrakant-mishra.github.io/reactqrapp/",
+//     githubLink: "https://github.com/Er-Chandrakant-Mishra/reactqrapp",
 
-  },
-  {
-    title: "Crypto Dashboard",
-    description: "Bitcoin trends using CoinDesk API and react-chartjs-2",
-    techstack: "ReactJS, TailwindCSS, JavaScript, HTML/CSS",
-    previewLink: "https://er-chandrakant-mishra.github.io/history",
-    githubLink: "https://github.com/Er-Chandrakant-Mishra/crypto-dashboard",
+//   },
+//   {
+//     title: "Crypto Dashboard",
+//     description: "Bitcoin trends using CoinDesk API and react-chartjs-2",
+//     techstack: "ReactJS, TailwindCSS, JavaScript, HTML/CSS",
+//     previewLink: "https://er-chandrakant-mishra.github.io/history",
+//     githubLink: "https://github.com/Er-Chandrakant-Mishra/crypto-dashboard",
     
-  },
-];
+//   },
+
+//   {
+//     title: "abc",
+//     description: "Bitcoin trends using CoinDesk API and react-chartjs-2",
+//     techstack: "ReactJS, TailwindCSS, JavaScript, HTML/CSS",
+//     previewLink: "https://er-chandrakant-mishra.github.io/history",
+//     githubLink: "https://github.com/Er-Chandrakant-Mishra/crypto-dashboard",
+    
+//   },
+// ];
 
 export const Projects = () => (
   <section className="project" id="projects">

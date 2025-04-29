@@ -9,7 +9,7 @@ export const ProjectCard = ({ title, description, techstack, imgUrl, githubLink,
         <Card.Title>{title}</Card.Title>
         <Card.Text>{description}</Card.Text>
         <Card.Text>{techstack}</Card.Text>
-        <p><strong>Tech Stack:</strong> {techstack}</p>
+  
         <div className="project-links">
           <a href={githubLink} target="_blank" rel="noreferrer">
             <img src={githubIcon} alt="GitHub" style={{ width: "24px", marginRight: "10px" }} />

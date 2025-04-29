@@ -1,4 +1,4 @@
-# 💼 Chandrakant Mishra - Developer Portfolio
+# 💼 Chandrakant Mishra - Front-end Developer Portfolio
 
 Welcome to my personal portfolio website built using **React.js**, showcasing my experience, projects, and skills as a frontend and full stack developer.
 
